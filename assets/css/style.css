@@ -1,0 +1,46 @@
+.body {
+    line-height: 17px;
+}
+
+.top_bar {
+    width: 100%;
+    min-width: 1050px;
+    height: 40px;
+    background-color: rgb(6, 117, 165);
+    border-bottom: 0.25em solid rgb(4, 4, 4);
+    margin: 0 0 10px 0;
+    display: inline-flex;
+
+}
+
+.logo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif'';
+    margin-left: 10px;
+    font-size: 150%;
+    position: relative;
+    top: 9px;
+}
+
+
+a:hover {
+    text-shadow: 0em;
+}
+
+nav {
+    float: right;
+    right: 1px;
+    position: absolute;
+    margin: 10px;
+}
+
+nav a {
+    position: relative;
+    color: #fff;
+    text-decoration-style: solid;
+    font-size: 17px;
+}
+
+nav a:hover {
+    text-decoration-color: black;
+
+}

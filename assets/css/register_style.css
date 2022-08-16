@@ -1,0 +1,93 @@
+/* anything with form tag will be aligned in the centre*/
+form {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+    min-height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-style: initial;
+}
+
+.wrapper {
+
+    background-image: url("../images/backgrounds/h.png");
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    min-width: 950px;
+}
+
+.login_box {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    top: 10%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.273);
+    border: 3px solid #020017df;
+    border-radius: 30px;
+    padding: 5px;
+
+}
+
+.login_header {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: inherit;
+    width: 100%;
+    height: 80px;
+    background-color: #0c00f5df;
+    color: rgb(11, 18, 78);
+    text-align: center;
+    border-radius: 7px;
+
+}
+
+.login_header h3 {
+    color: rgb(201, 255, 219);
+}
+
+input[type="submit"] {
+    background-color: #0c00f5df;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    border-color: #0c00f5df;
+    margin: 5px 0 5px 0;
+    font-style: oblique;
+
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    border: 1px solid hsl(0, 0%, 0%);
+    margin-top: 5px;
+    width: 70%;
+    height: 35px;
+    margin-bottom: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+
+}
+
+input[type="text"]:hover,
+input[type="password"]:hover,
+input[type="email"]:hover {
+    border-color: rgb(225, 36, 93);
+
+}
+
+#second {
+    display: none;
+}
